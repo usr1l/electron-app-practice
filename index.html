@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"
+    />
+    <title>Hello Electron</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Hello, Electron!</h1>
+      <p class="subtitle">
+        Running Electron <span id="version">…</span> on
+        <span id="platform">…</span>.
+      </p>
+      <button id="greet-btn">Show native dialog</button>
+    </main>
+    <script src="renderer.js"></script>
+  </body>
+</html>
