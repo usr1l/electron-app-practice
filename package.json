@@ -38,8 +38,16 @@
       "target": [
         { "target": "dmg", "arch": ["x64", "arm64"] }
       ],
-      "category": "public.app-category.utilities"
+      "category": "public.app-category.utilities",
+      "identity": null
     },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "usr1l",
+        "repo": "electron-app-practice"
+      }
+    ],
     "nsis": {
       "oneClick": false,
       "perMachine": false,
